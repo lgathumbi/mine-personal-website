@@ -20,7 +20,7 @@ If you have any suggestions or you find issues, feel free to reach out or submit
 1. Fork the project
 2. Create a branch
 3. Commit your changes
-4 Push to branch
+4. Push to branch
 
 
 
