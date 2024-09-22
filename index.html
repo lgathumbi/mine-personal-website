@@ -1,10 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <link rel="stylesheet" href="style.css" />
-        <title>Mine Personal Website</title>
+        <title>Website</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <header id="main-header">
+            <div class="container">
+                <a href="#" class="logo"><span>Lor</span>nah</a>
+
+                <nav id="navbar">
+                    <ul class="nav-list">
+                        <li class="nav-1"><a href=""class="nav-link">Home</a></li>
+                        <li class="nav-1"><a href="#about"class="nav-link">About</a></li>
+                        <li class="nav-1" ><a href="#projects"class="nav-link">Projects</a></li>
+                        <li class="nav-1"><a href="#skills"class="nav-link">Skills</a></li>
+                        <li class="nav-1"><a href="#contact"class="nav-link">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <section id="about">
+                <div class="about-img">
+                    <img src="images/user.jpg" alt="profile">
+                </div>
+                <div class="about-content">
+                    <h2 class="heading">About <span></span>Me</h2>
+                    <h3>Frontend<span>Developer</span></h3>
+                    <p>Hello! I am Web Developer. To me i can't say its an easy journey to be where i am now. I try my best to broaden my skills and knowledge by learning about new technologies. I am  love what i do.</p>
+                </div>
+            </section>
+            <h1 class="title">My Projects</h1>    
+        <section id="projects">
+            <div class="container">
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/soapp.jpeg" alt="Social App">
+                        <h2>Social Media App</h2>
+                        <p>The app that connects you with the talented people around the world.Download it from play store</p>
+                        <a href="#"></a>
+                    </div>
+                    <div class="work">
+                        <img src="images/mapp.jpeg" alt="Music App">
+                        <h2>Music App</h2>
+                        <p>Stream and discover music with personalized playlists and recommendations.</p>
+                    </div>
+                    <div class="work">
+                        <img src="images/shopping.jpeg" alt="Shopping App">
+                        <h2>Shopping App</h2>
+                        <p>Browse and purchase products easily with secure payment options.</p>
+                    </div>
+                </div>
+            </div>     
+        </section>
+        <section  id="skills">
+            <h2 class="heading">My <span>Skills</span></h2>
+                <h3 class="title">Coding Skills</h3>
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>HTML <span>90%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress"></div>
+                            <h3>CSS <span>80%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress"></div>
+                            <h3>JavaScript<span>20%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                        <div class="progress"></div>
+                            <h3>Python<span>0%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    <section id="contact">
+        <div class="contact">
+            <h1>Contact Me</h1>
+            <form class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+    
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </section>
     </body>
 </html>
